@@ -7,6 +7,8 @@
 body header {
     top: 0;
     width: 100%;
+    padding: 2vw;
+    margin-top: 2vw;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -44,13 +46,47 @@ body header .img img{
 }
 /*section*/
 body section{
-
+    background-color: blue;
 }
 
 body section .timer{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    padding: 6vw;
+    margin-top: 10vw;
+    font-size: 5vw;
+}
 
+body section .timer2{
+    background-color: black;
+}
+
+body section .average{
+    padding: 3vw;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body section .time-text{
+    padding-bottom:1.5vw;
+    padding-left: 1vw;
+    border: solid;
+    border-width: 1px;
+    border-color: beige;
+    width:200px;
 }
 
 body section .avg{
-
+    padding: 1vw;
+}
+/* footer */
+body footer{
+    background-color: chartreuse;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    
 </head>
 <body>
 
@@ -30,20 +30,37 @@
     </header>
 
     <section>
+
         <div class="timer">
-            00:00 
+            <span id="second">00</span>
+                :
+            <span id="milliSecond">00</span> 
+        </div> 
+
+        <div class="average">
+
+            <div class="time-text">
+                Average time
+            </div>
+
+            <div class="avg">
+                <p> Time 1 :<span class="time1"></span> </p>
+                <p> Time 2 :<span class="time2"></span> </p>
+                <p> Time 3 :<span class="time3"></span> </p>
+                <p> Time 4 :<span class="time4"></span> </p>
+                <p> Time 5 :<span class="time5"></span> </p>
+            </div>
+
         </div>
-        <div class="avg">
-            <p> Time 1<span class="time1"></span> </p>
-            <p> Time 2<span class="time2"></span> </p>
-            <p> Time 3<span class="time3"></span> </p>
-            <p> Time 4<span class="time4"></span> </p>
-            <p> Time 5<span class="time5"></span> </p>
-        </div>
+        
     </section>
 
     <footer>
+
         <p> &copy; Tsiory Fanambinana 2025 </p>
+        
     </footer>
+
 </body>
+<script src="./script.js"></script>
 </html>
